@@ -21,6 +21,8 @@
     padding-left:0px;
     padding-right:0px;
     height:450px;
+    background:url(../../assets/img/my-pic.jpg) no-repeat;
+    background-size:cover;
   }
 }
 
