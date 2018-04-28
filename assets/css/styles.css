@@ -110,7 +110,12 @@ img.project-images{
 }
 
 img.topic-images{
-  width:300px;
+  width:100%;
   height:200px;
+}
+
+i.fa.fa-bold.home-icon{
+  font-size:30px;
+  color:rgb(1,245,201);
 }
 
