@@ -1,0 +1,111 @@
+.main{
+  background:url(../../assets/img/background.jpg) no-repeat;
+  background-size:cover;
+  padding-top:40px;
+  padding-bottom:10px;
+  padding-left:80px;
+  padding-right:80px;
+}
+
+.jumbotron.top-jumbo{
+  margin-top:55px;
+  height:450px;
+  background:rgba(255,255,255,0.25);
+  border-radius:25px;
+}
+
+@media (max-width:767px) {
+  .main{
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    padding-right:0px;
+    height:450px;
+  }
+}
+
+h1.text-center.text-primary.mod-heading{
+  color:yellow;
+}
+
+p.text-center.mod-info{
+  color:rgb(0,1,0);
+}
+
+.btn.btn-default.facebook{
+  margin:1px;
+  background-color:#3b5998;
+}
+
+.btn.btn-default.twitter{
+  margin:1px;
+  background-color:#00aced;
+}
+
+.btn.btn-default.linkedin{
+  margin:1px;
+  background-color:#0077B5;
+}
+
+.btn.btn-default.instagram{
+  margin:1px;
+  background-color:#cd486b;
+}
+
+.btn.btn-default.stackoverflow{
+  margin:1px;
+  background-color:#ef8236;
+}
+
+.text-center.sec-headings{
+  font-weight:800;
+  color:rgb(1,133,255);
+}
+
+.text-center.sec-sub-heads{
+  font-weight:600;
+  color:black;
+  font-family:Arial;
+}
+
+.btn.btn-default.cv-button{
+  width:100%;
+  margin-top:10px;
+  background-color:black;
+  font-weight:800;
+}
+
+i.fa.fa-code.programming-icon{
+  font-size:25px;
+  margin-left:27px;
+}
+
+@media (max-width:767px) {
+  i.fa.fa-code.programming-icon{
+    font-size:25px;
+    margin-left:0px;
+  }
+}
+
+i.fa.fa-book.books-icon{
+  font-size:25px;
+  margin-left:27px;
+}
+
+@media (max-width:767px) {
+  i.fa.fa-book.books-icon{
+    font-size:25px;
+    margin-left:0px;
+  }
+}
+
+.btn.btn-default.view-code-on-github{
+  background-color:green;
+}
+
+img.project-images{
+  width:348px;
+  height:250px;
+  margin-top:3px;
+}
+
